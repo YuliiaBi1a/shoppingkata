@@ -36,4 +36,4 @@ Es necesario usar TDD. Recuerda:
 - Los productos de tipo `Book` tienen un autor y una descripción (además de nombre y precio) y se les puede añadir un descuento pero no mayor del 10%.
   
   ### UML
-  ![UML de la kata]()
+  [UML de la kata](src/main/java/org/yuli/img/uml-shopping-kata.png)
