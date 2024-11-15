@@ -36,4 +36,13 @@ public class Book extends Product implements Discountable {
     public double getPrice() {
         return super.getPrice() - (super.getPrice() / 100 * this.discountPercentage);
     }
+
+    @Override
+    public String toString() {
+        return "Book{" +
+                "author='" + author + '\'' +
+                ", description='" + description + '\'' +
+                ", discountPercentage=" + discountPercentage +
+                '}';
+    }
 }
