@@ -1,7 +1,6 @@
 package org.yuli;
 
 public class FoodProduct extends Product implements Discountable {
-
     private double discountPercentage;
 
     public FoodProduct(String name, double price) {
